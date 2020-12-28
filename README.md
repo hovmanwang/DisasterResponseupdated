@@ -36,11 +36,6 @@ Here's the file structure of the project (taken from Udacity Project):
 
 app
 
-| - template
-
-| |- master.html # main page of web app
-
-| |- go.html # classification result page of web app
 
 |- run.py # Flask file that runs app
 
@@ -53,12 +48,14 @@ data
 |- process_data.py
 
 |- DisasterResponse.db # database to save clean data to
+|- ETL Pipeline Preparation (2) - the ipynb file which is directly downloaded from Udacity workspace, with results
 
 models
 
-|- train_classifier.py
-
+|- ML Pipeline Preparation.py - directly downloaded from Udacity workspace, with results
+|- ML Pipeline Preparation (2).ipynb - directly downloaded from Udacity workspace, with results
 |- classifier.pkl # saved model
+
 
 |- README.md
 
