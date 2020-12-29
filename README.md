@@ -59,7 +59,7 @@ ETL Pipeline Preparation updated 29122020 - the ipynb file which is directly dow
 models
 
 
-ML Pipeline Preparation (2).ipynb - directly downloaded from Udacity workspace, with results
+ML Pipeline Preparation updated 29122020.ipynb - directly downloaded from Udacity workspace, with results
 
 
 I could not save the pickle file as it's bigger than 25mb
