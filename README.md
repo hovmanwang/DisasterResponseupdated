@@ -4,7 +4,9 @@ updated repo for 2nd project DR
 
 
 Udacity project:
-project purpose is to build a flask app which makes use of news, direct and social media messages with classification, apply ETL and ML pipeline, in order to build a model that classifies any messages into a disaster category
+project purpose is to build a flask app which makes use of news, direct and social media messages with classification, apply ETL and ML pipeline, in order to build a model that classifies any messages into a disaster category.
+
+Building this model will enable a user to understand what is the current hot topic and response promptly, for example if there is a water shortage then he can start buying bottled water. For organizations this will allow swift response and monitoring of any disaster situation and in turn deploy support in events such as earthquakes.
 
 input files: messages.csv and categories.csv
 
@@ -58,6 +60,18 @@ models
 
 
 |- README.md
+
+
+|-Instructions:
+|-Run the following commands in the project's root directory to set up your database and model.
+
+|-To run ETL pipeline that cleans data and stores in database python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
+|-To run ML pipeline that trains classifier and saves python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+|-Run the following command in the app's directory to run your web app. python run.py
+
+|-Go to http://0.0.0.0:3001/, my personal link is https://view6914b2f4-3001.udacity-student-workspaces.com/
+
+
 
 Acknowledgements
 
