@@ -39,37 +39,45 @@ Here's the file structure of the project (taken from Udacity Project):
 app
 
 
-|- run.py # Flask file that runs app
+run.py # Flask file that runs app
+
+
 
 data
 
-|- disaster_categories.csv # data to process
+disaster_categories.csv # data to process
 
-|- disaster_messages.csv # data to process
+disaster_messages.csv # data to process
 
-|- process_data.py
+process_data.py - the collated ETL procedure which runs using the two csv files
 
-|- DisasterResponse.db # database to save clean data to
-|- ETL Pipeline Preparation (2) - the ipynb file which is directly downloaded from Udacity workspace, with results
+DisasterResponse.db 
+
+train_classifier.py - the collated ML pipeline that produces the model
+ETL Pipeline Preparation updated 29122020 - the ipynb file which is directly downloaded from Udacity workspace, with results
 
 models
 
-|- ML Pipeline Preparation.py - directly downloaded from Udacity workspace, with results
-|- ML Pipeline Preparation (2).ipynb - directly downloaded from Udacity workspace, with results
-|- classifier.pkl # saved model
+
+ML Pipeline Preparation (2).ipynb - directly downloaded from Udacity workspace, with results
 
 
-|- README.md
+I could not save the pickle file as it's bigger than 25mb
 
 
-|-Instructions:
-|-Run the following commands in the project's root directory to set up your database and model.
+README.md
 
-|-To run ETL pipeline that cleans data and stores in database python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
-|-To run ML pipeline that trains classifier and saves python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
-|-Run the following command in the app's directory to run your web app. python run.py
 
-|-Go to http://0.0.0.0:3001/, my personal link is https://view6914b2f4-3001.udacity-student-workspaces.com/
+Instructions:
+Run the following commands in the project's root directory to set up your database and model.
+
+To run ETL pipeline that cleans data and stores in database python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
+
+To run ML pipeline that trains classifier and saves python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+
+Run the following command in the app's directory to run your web app. python run.py
+
+Go to http://0.0.0.0:3001/, my personal link is https://view6914b2f4-3001.udacity-student-workspaces.com/
 
 
 
